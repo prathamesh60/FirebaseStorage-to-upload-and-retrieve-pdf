@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="10dp"
+        android:text=""
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/blend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/count"
+        android:paddingBottom="10dp"
+        android:text=""
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/sub_machine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blend"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/feed_wrpg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub_machine"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/no_of_doublings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feed_wrpg"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/total_feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no_of_doublings"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/del_wrapping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total_feed"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cal_draft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/del_wrapping"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/del_speed_old"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cal_draft"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/del_speed_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/del_speed_old"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ratch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/del_speed_new"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/faller_pins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratch"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fr_pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/faller_pins"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/composition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fr_pressure"
+        android:paddingBottom="10dp"
+        android:text="Filename"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

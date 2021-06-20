@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".IntermediateActivity">
+
+    <EditText
+        android:id="@+id/countentry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:hint="Enter count"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+    <EditText
+        android:id="@+id/blendentry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/countentry"
+        android:hint="Enter blend"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+    <Spinner
+        android:id="@+id/machine_spinner"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/blendentry"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/machine_spinner"
+        android:text="View" />
+
+
+</RelativeLayout>

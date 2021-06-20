@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uploadx">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QuantAutoconer"></activity>
+        <activity android:name=".Ssm" />
+        <activity android:name=".Machconer" />
+        <activity android:name=".TwoForOne" />
+        <activity android:name=".Zinser" />
+        <activity android:name=".SARING" />
+        <activity android:name=".TextTool" />
+        <activity android:name=".BM20" />
+        <activity android:name=".BM13" />
+        <activity android:name=".FM7" />
+        <activity android:name=".GV20" />
+        <activity android:name=".GillGN4" />
+        <activity android:name=".GillGN3" />
+        <activity android:name=".GillGN2" />
+        <activity android:name=".GillGN1" />
+        <activity android:name=".GillGC4" />
+        <activity android:name=".GillGC3" />
+        <activity android:name=".GillGC2" />
+        <activity android:name=".GillGC1" />
+        <activity android:name=".IntermediateActivity" />
+        <activity android:name=".TestUploads" />
+        <activity android:name=".AdminViewUploads" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrationPage" />
+        <activity android:name=".MainAdminPage" />
+        <activity android:name=".PdfViewer" />
+        <activity android:name=".ViewUploadsActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".SampleContentProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

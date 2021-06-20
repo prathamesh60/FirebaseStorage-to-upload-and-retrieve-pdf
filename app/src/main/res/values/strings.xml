@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Uploadx</string>
+    <string name="taper_dgre"><![CDATA[TAPER < DGRE]]></string>
+    <string name="cp">Cp+</string>
+    <string name="ccp">CCp+</string>
+    <string name="speed_m_min">Speed_m/min</string>
+    <string name="dg_ramp_speed_m_min">DG_Ramp_speed_m/min</string>
+    <string name="initial_speed_m_min">Initial_speed_m/min</string>
+    <string name="req_yarn_length_meter_3">Req_Yarn_length_meter_3</string>
+    <string name="empty_tube_relief_3">Empty_tube_relief_%_3</string>
+    <string name="package_relief_4">Package_relief_%_4</string>
+    <string name="yarn_tension_factor_6">Yarn_Tension_Factor_%_6</string>
+    <string name="yarn_tension_facor_package_7">Yarn_Tension_Facor_Package_%_7</string>
+    <string name="yarn_tension_doffing_9">Yarn_Tension_doffing_%_9</string>
+    <string name="winding_angle_2">Winding_angle_°_2</string>
+    <string name="winding_angle_3">Winding_angle_°_3</string>
+    <string-array name="machine">
+        <item>Gill GC-1</item>
+        <item>Gill GC-2</item>
+        <item>Gill GC-3</item>
+        <item>Gill GC-4</item>
+        <item>Gill GN-1</item>
+        <item>Gill GN-2</item>
+        <item>Gill GN-3</item>
+        <item>Gill GN-4</item>
+        <item>GV-20</item>
+        <item>FM-7</item>
+        <item>BM-13,15</item>
+        <item>BM-20</item>
+        <item>Textool Ring Frame</item>
+        <item>SA Ring Frame</item>
+        <item>Zinger Ring Frame</item>
+        <item>Quantum 2 on Manchoner</item>
+        <item>Quantum2 on Autoconer 338</item>
+        <item>Loepfe Zenit on Autoconer 338</item>
+        <item>SSM Ply Winding</item>
+        <item>Two For One</item>
+
+
+    </string-array>
+</resources>
